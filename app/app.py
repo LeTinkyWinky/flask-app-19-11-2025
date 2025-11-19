@@ -7,6 +7,7 @@ items = []
 
 @app.route('/')
 def index():
+    raise Exception("intentional error for testing")
     return render_template('index.html', items=items)
 
 @app.route('/add', methods=['POST'])
