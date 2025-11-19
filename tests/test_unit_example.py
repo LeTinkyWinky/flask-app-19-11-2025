@@ -1,2 +1,2 @@
 def test_unit_example():
-    assert 1+2 == 5
+    assert 1+2 == 3
